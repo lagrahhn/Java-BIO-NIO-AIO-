@@ -109,7 +109,6 @@ public class BioServer {
             for (Integer client : activeClients.keySet()) {
                 if (client != currentClient) {
                     waiting.add(client);
-                    System.out.println();
                 }
             }
             return waiting;
