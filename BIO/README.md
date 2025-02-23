@@ -1,5 +1,6 @@
 ## 运行server并接收client
 
+```
 BIO Server started on port 8080
 Client 2660 connected. Active clients: 1
 总内存246MB	空闲内存241MB	占用内存4MB
@@ -81,9 +82,11 @@ Client 4966 disconnected
 Client 5325 disconnected
 Client 6535 disconnected
 Client 2660 disconnected
+```
 
 ## 运行client
 
+```
 Received: Server response to 3569: MESSAGE-0
 Received: Server response to 2163: MESSAGE-0
 Received: Server response to 3162: MESSAGE-0
@@ -134,3 +137,4 @@ Received: Server response to 6535: MESSAGE-3
 Received: Server response to 6535: MESSAGE-4
 Received: Server response to 2660: MESSAGE-4
 Received: Server response to 4966: MESSAGE-4
+```
